@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: reshet-server-dev
-  namespace: dev
+  namespace: server-dev
   labels:
     app: reshet-server-dev
 spec:
