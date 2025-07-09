@@ -20,6 +20,8 @@ spec:
       labels:
         app: reshet-server-dev
     spec:
+      imagePullSecrets:
+        - name: regcred
       containers:
       - name: reshet-server-dev
         image: guyhguy/wordpress-server:dev
