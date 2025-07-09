@@ -1,1 +1,2 @@
-echo -e "User-Agent: *\nDisallow: /" > robots.txt
+User-Agent: *
+Disallow: /
