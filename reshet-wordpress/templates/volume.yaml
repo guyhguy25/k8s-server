@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: wp-pv-claim
   labels:
-    app: reshet-wordpress
+    app: wordpress
 spec:
   accessModes:
     - ReadWriteOnce

@@ -1,30 +1,30 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: reshet-wordpress
+  name: wordpress
   labels:
-    app: reshet-wordpress
+    app: wordpress
 spec:
   selector:
     matchLabels:
-      app: reshet-wordpress
+      app: wordpress
       tier: frontend
   strategy:
     type: Recreate
   template:
     metadata:
       labels:
-        app: reshet-wordpress
+        app: wordpress
         tier: frontend
     spec:
       imagePullSecrets:
         - name: regcred
       containers:
       - image: guyhguy/wordpress-server:dev
-        name: reshet-wordpress
+        name: wordpress
         ports:
         - containerPort: 80
-          name: reshet-wordpress
+          name: wordpress
         volumeMounts:
         - name: wordpress-persistent-storage
           mountPath: /var/www/html
