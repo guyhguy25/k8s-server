@@ -3,9 +3,9 @@ entries:
   mysql:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-09T14:12:32.577368+03:00"
+    created: "2025-07-09T14:44:24.183206+03:00"
     description: A Helm chart for Kubernetes
-    digest: 9a7811e932982519de1ea0433fd35235d486b1d4a6e3cc5c7af38f728c894de4
+    digest: 34339ce13904a1a554e5542b4ef36369d427e9eaaa7a406ae0ca629cd06d0e38
     icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
     name: mysql
     type: application
@@ -15,13 +15,13 @@ entries:
   wordpress:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-09T14:12:32.577569+03:00"
+    created: "2025-07-09T14:44:24.183431+03:00"
     description: A Helm chart for Kubernetes
-    digest: ad5922cec047b4d56899f280ccd37495cba829ddb2e0a28d8db9a28b5bce3123
+    digest: 0a22fc115bc57fc584a327d463ddd5a57b75d6d32712af0956787d4dea961364
     icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
     name: wordpress
     type: application
     urls:
     - https://guyhguy25.github.io/k8s-server/wordpress-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-09T14:12:32.576818+03:00"
+generated: "2025-07-09T14:44:24.182575+03:00"
