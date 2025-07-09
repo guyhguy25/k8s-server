@@ -1,39 +1,15 @@
 apiVersion: v1
 entries:
-  mysql:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-07-09T15:11:05.913949+03:00"
-    description: A Helm chart for Kubernetes
-    digest: 34339ce13904a1a554e5542b4ef36369d427e9eaaa7a406ae0ca629cd06d0e38
-    icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
-    name: mysql
-    type: application
-    urls:
-    - https://guyhguy25.github.io/k8s-server/mysql-0.1.0.tgz
-    version: 0.1.0
-  reshet-wordpress:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-07-09T15:11:05.914132+03:00"
-    description: A Helm chart for Kubernetes
-    digest: 311ddadfd76b07c2da70d9df970e20d6f0587a89218ccbbaf079f258be86ba5f
-    icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
-    name: reshet-wordpress
-    type: application
-    urls:
-    - https://guyhguy25.github.io/k8s-server/reshet-wordpress-0.1.0.tgz
-    version: 0.1.0
   wordpress:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-07-09T15:11:05.914317+03:00"
+    appVersion: 1.16.1
+    created: "2025-07-09T16:21:02.76204+03:00"
     description: A Helm chart for Kubernetes
-    digest: 0a22fc115bc57fc584a327d463ddd5a57b75d6d32712af0956787d4dea961364
+    digest: 23d037a2558710dc267d1a4baa2998604926fd4621fc73e3caf37e74990f1275
     icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
     name: wordpress
     type: application
     urls:
-    - https://guyhguy25.github.io/k8s-server/wordpress-0.1.0.tgz
-    version: 0.1.0
-generated: "2025-07-09T15:11:05.912349+03:00"
+    - https://guyhguy25.github.io/k8s-server/wordpress-0.1.1.tgz
+    version: 0.1.1
+generated: "2025-07-09T16:21:02.761241+03:00"
