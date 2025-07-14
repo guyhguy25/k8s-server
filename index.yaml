@@ -2,14 +2,25 @@ apiVersion: v1
 entries:
   wordpress:
   - apiVersion: v2
-    appVersion: 1.16.1
-    created: "2025-07-09T16:21:02.76204+03:00"
+    appVersion: 1.16.2
+    created: "2025-07-14T10:51:04.201285+03:00"
     description: A Helm chart for Kubernetes
-    digest: 23d037a2558710dc267d1a4baa2998604926fd4621fc73e3caf37e74990f1275
+    digest: 31e8e2ca4c1752e49e91c83a8fc06aa90af965351f04426410c0d456a892c4dd
+    icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+    name: wordpress
+    type: application
+    urls:
+    - https://guyhguy25.github.io/k8s-server/wordpress-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.1
+    created: "2025-07-14T10:51:04.201106+03:00"
+    description: A Helm chart for Kubernetes
+    digest: d4c02c4997d4526bc347b07fa5159372a71a782f4166415bd639dbc0c521a415
     icon: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
     name: wordpress
     type: application
     urls:
     - https://guyhguy25.github.io/k8s-server/wordpress-0.1.1.tgz
     version: 0.1.1
-generated: "2025-07-09T16:21:02.761241+03:00"
+generated: "2025-07-14T10:51:04.200618+03:00"
