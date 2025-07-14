@@ -20,7 +20,7 @@ spec:
       imagePullSecrets:
         - name: regcred
       containers:
-      - image: guyhguy/wordpress-server:dev
+      - image: guyhguy/wordpress-server:test
         name: wordpress
         ports:
         - containerPort: 80
