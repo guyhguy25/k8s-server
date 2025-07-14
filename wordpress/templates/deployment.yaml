@@ -27,13 +27,36 @@ spec:
           value: "http://dev-reshet.tv"
         - name: WP_SITEURL
           value: "http://dev-reshet.tv"
+        - name: WORDPRESS_DB_NAME
+          value: "digital_reshet"
+        - name: WORDPRESS_TABLE_PREFIX
+          value: "wp_rsht2016_"
+        - name: WORDPRESS_DB_HOST
+          value: 192.168.34.240
+        - name: WORDPRESS_DB_USER
+          value: "digital_root"
+        - name: WORDPRESS_DB_PASSWORD
+          value: "Dg175175!"
+        - name: WORDPRESS_DB_CHARSET
+          value: "utf8"
+        - name: WORDPRESS_AUTH_KEY
+          value: "};klV%gey08I9`u,BVgs;:k_n|[6g;_yqe{}bpn[N%t0jM^N6I!av1&7$~bC[G#h"
+        - name: WORDPRESS_SECURE_AUTH_KEY
+          value: "U{:*] s4Tk)jGdPSF[)x1TkB@@~gN^pRlVsg/D ?G2gQ$qQkq(J_c~m8mqDM)Tm7"
+        - name: WORDPRESS_LOGGED_IN_KEY
+          value: "0wBRGl+$g]S(UuDs>I/Mh#C&RYOU1M3TZm_n3X)l/Jx{M_Z3*K{`rt3=vEk4Fgp6"
+        - name: WORDPRESS_NONCE_KEY
+          value: "PHcoHjUNT~XY|gb2Eo7xN%^#}|bm..S5j[IB=9frcr.QxA|H3$J&.9%#U^NB_h^d"
+        - name: WORDPRESS_AUTH_SALT
+          value: "<)J=[og!^-Wxvq(v]}u.cTJR@xScYfsJ]dzJ:?vo1jagE8n0q*LqGL7}aU~;qWa3"
+        - name: WORDPRESS_SECURE_AUTH_SALT
+          value: "_+AFhE~OOZ:@d+!)|Fg{qcAwm:8u#TBoCwqzo&SuQrf{#h:R*k*s,<7Vs=ujqOzU"
+        - name: WORDPRESS_LOGGED_IN_SALT
+          value: "i*7p)as?EtC#IXeQc9cdzV4`k9(NVvu}Ny8Gf>L*io>!+@OP7]KEj7~%ddl/GWyL"
+        - name: WORDPRESS_NONCE_SALT
+          value: "84V67vP7aTcfj>v$?M,t&7Tv6,n`Dx=,.Gv>bByi:7>-~.}MO,0lI;5fwL}vg*,{"
+        - name: WORDPRESS_DEBUG
+          value: "true"
         ports:
         - containerPort: 80
           name: wordpress
-        volumeMounts:
-        - name: wordpress-persistent-storage
-          mountPath: /var/www/html
-      volumes:
-      - name: wordpress-persistent-storage
-        persistentVolumeClaim:
-          claimName: wp-pv-claim
