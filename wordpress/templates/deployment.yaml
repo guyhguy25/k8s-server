@@ -22,6 +22,11 @@ spec:
       containers:
       - image: guyhguy/wordpress-server:test
         name: wordpress
+        env:
+        - name: WP_HOME
+          value: "http://dev-reshet.tv"
+        - name: WP_SITEURL
+          value: "http://dev-reshet.tv"
         ports:
         - containerPort: 80
           name: wordpress
